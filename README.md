@@ -1,2 +1,2 @@
-# RT-LIS6371
+# LIS6371
 Open Source R for Data &amp; Info (Class)

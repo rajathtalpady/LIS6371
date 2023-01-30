@@ -5,6 +5,8 @@ results = cbind(Name, ABC_political, NCB_political)
 results
 results.df = data.frame(Name,ABC_political,NCB_political)
 results.df
+mean(results.df[,3])
+mean(results.df[,2])
 as.matrix(results.df)
 
 

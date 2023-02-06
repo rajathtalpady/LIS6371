@@ -5,5 +5,5 @@ Second <- c(0,0,1,1,0,0,1,1,1,1)
 Final <- c(0,1,0,1,0,1,0,1,1,1)
 hospital.df <- data.frame(Freq,BP,First,Second,Final)  
 hist(hospital.df$Freq)
-#$BP,$First,$Second,$Final
+#$BP,$First,$Second,$Final were also used seperatly
 

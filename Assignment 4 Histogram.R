@@ -1,0 +1,9 @@
+Freq <- c(0.6,0.3,0.4,0.4,0.2,0.6,.3,0.4,0.9,0.2)
+BP <- c(103,87,32,43,59,109,78,205,135,178) 
+First <- c(1,1,1,1,0,0,0,0,NA,1)
+Second <- c(0,0,1,1,0,0,1,1,1,1) 
+Final <- c(0,1,0,1,0,1,0,1,1,1)
+hospital.df <- data.frame(Freq,BP,First,Second,Final)  
+hist(hospital.df$Freq)
+#$BP,$First,$Second,$Final
+

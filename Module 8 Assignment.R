@@ -1,0 +1,6 @@
+x = read.table(file.choose(),header=TRUE,sep=",")
+library(plyr) 
+y = ddply(x,"Sex",transform, Grade.Average=mean(Grade)) 
+write.table(y,"Sorted_Average",sep=",")
+newx = subset(x,grepl("[iI]",x$Name))
+write.table(newx,"DataSubset",sep=",")

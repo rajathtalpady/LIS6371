@@ -1,0 +1,6 @@
+library(lattice)
+data <- read.csv("BondYield.csv")
+xyplot(data[,3] ~ data[,2], data = data, xlab = "Time", ylab = "Value", main = "Bond Yield")
+pdf("plot.pdf")
+print(xyplot(data[,3] ~ data[,2], data = data, xlab = "Time", ylab = "Value", main = "Bond Yield"))
+dev.off()
